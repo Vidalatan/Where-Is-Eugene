@@ -38,6 +38,10 @@ document.getElementById('level-7-area').addEventListener('click', event => {
 })
 
 document.getElementById('level-8-area').addEventListener('click', event => {
-    swapVisibility('level-8', 'cong');
+    swapVisibility('level-8', 'level-9');
+})
+
+document.getElementById('level-9-area').addEventListener('click', event => {
+    swapVisibility('level-9', 'cong');
 })
 
