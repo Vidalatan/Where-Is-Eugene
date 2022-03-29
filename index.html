@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Where's Eugene?</title>
+</head>
+<body>
+
+    <main id="rules">
+        <h1>WHERE IS EUGENE???</h1>
+        <h2>Rules:</h2>
+        <ul>
+            <li>Eugene is hidden somewhere in the stock images</li>
+            <li>He is good at hiding, so your mouse will not change to a pointer when hovering over him</li>
+            <li>Good luck!</li>
+        </ul>
+        <button id="startbtn">Start</button>
+    </main>
+
+
+    <div id="level-1" style="visibility: hidden;">
+        <img src="./assets/images/heseesyou.jpg" usemap="#map1">
+        <map name="map1">
+            <area id="level-1-area" shape="poly" coords="280,390, 340,350, 410,400, 410,450, 310,450" href="#" alt="">
+        </map>
+    </div>
+
+    <div id="level-2" style="visibility: hidden;">
+        <img src="./assets/images/pieces.jpg" usemap="#map2">
+        <map name="map2">
+            <area id="level-2-area" shape="poly" coords="490,105, 500,90, 520,85, 545,110, 540,125, 545,135, 525,145, 505,120" href="#" alt="">
+        </map>
+    </div>
+
+    <div id="level-3" style="visibility: hidden;">
+        <img src="./assets/images/shoe.jpg" usemap="#map3">
+        <map name="map3">
+            <area id="level-3-area" shape="poly" coords="640,490, 695,450, 710,465, 650,510" href="#" alt="">
+        </map>
+    </div>
+
+    <div id="level-4" style="visibility: hidden;">
+        <img src="./assets/images/toes.jpg" usemap="#map4">
+        <map name="map4">
+            <area id="level-4-area" shape="poly" coords="420,100, 428,95, 432,100, 430,120, 422,120" href="#" alt="">
+        </map>
+    </div>
+
+    <div id="level-5" style="visibility: hidden;">
+        <img src="./assets/images/disaster.jpg" usemap="#map5">
+        <map name="map5">
+            <area id="level-5-area" shape="poly" coords="0,330, 11,330, 12,340, 0,340" href="#" alt="">
+        </map>
+    </div>
+
+    <div id="level-6" style="visibility: hidden;">
+        <img src="./assets/images/manytrees.jpg" usemap="#map6">
+        <map name="map6">
+            <area id="level-6-area" shape="poly" coords="493,93, 497,83, 508,75, 519,83, 498,95" href="#" alt="">
+        </map>
+    </div>
+
+    <div id="level-7" style="visibility: hidden;">
+        <img src="./assets/images/forest.jpg" usemap="#map7">
+        <map name="map7">
+            <area id="level-7-area" shape="poly" coords="300,217, 330,192, 350,205, 340,234, 310,232" href="#" alt="">
+        </map>
+    </div>
+
+    <div id="level-8" style="visibility: hidden;">
+        <img src="./assets/images/carnivaljpg.jpg" usemap="#map8">
+        <map name="map8">
+            <area id="level-8-area" shape="poly" coords="63,316, 84,299, 92,311, 99,339, 70,341" href="#" alt="">
+        </map>
+    </div>
+
+    <div id="cong" style="visibility: hidden;">
+        <h2>CONGRADULATIONS! YOU FOUND EUGENE!</h2>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
